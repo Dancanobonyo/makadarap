@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Title</title>
+    <style>
+        .footer{
+        background:black;
+        padding-top:20px;
+        padding-bottom:20px;
+        margin-top:0px;
+        }
+       .base{
+       background:linen;
+       margin-left:20px;
+       margin-right:20px;
+       }
+       .row{
+       margin-left:20px;
+       }
+       .column{
+       display:inline-block;
+       padding:90px;
+       }
+       /*..................................*/
+       .media img{
+       display
+       }
+       .super{
+       display:inline-block;
+       padding:130px;
+       }
+       /*...........................bar.............*/
+       .button{
+       background:#236;
+       padding-top:5px;
+       padding-bottom:10px;
+       top:0;
+       position:fixed;
+       width:100%;
+       }
+       nav ul li{
+       display:inline-block;
+       }
+       nav ul{
+       text-align:right;
+       }
+       nav a{
+       padding:15px;
+       font-size:26px;
+       text-decoration:none;
+       color:white;
+      margin-right:20px;
+       }
+       nav a:hover{
+       background:black;
+       color:yellow;
+       }
+
+ /*........................................................*/
+ .sub-links{
+ display:none;
+ }
+ nav ul li:hover .sub-links{
+ display:block;
+ position:absolute;
+ background:#236;
+ margin-top:15px;
+ margin-left:-250px;
+}
+nav ul li:hover .sub-links ul{
+display:block;
+margin:10px;
+}
+nav ul li:hover .sub-links ul li{
+display:block;
+padding:10px;
+border-bottom: 2px solid white;
+text-align:left;
+}
+nav ul li:hover .sub-links ul li:last-child{
+border-bottom:none;
+}
+.sub-links2{
+display:none;
+}
+.me:hover .sub-links2{
+position:absolute;
+display:block;
+margin-left:-160px;
+margin-top:5px;
+background:#236;
+width:100%;
+}
+ /*...............................testimonial..............*/
+ .testimonial{
+          padding-top:  100px;
+}
+.col-3{
+           text-align:center;
+           padding:40px 20px;
+           box-shadow:0 0 20px 0px rgba(0,0,0,0.1);
+           cursor:pointer;
+           width:23%;
+           display:inline-block;
+}
+.d-img{
+           width:160px;
+           margin-top:20px;
+           border-radius:50%;
+}
+.fa.fa-quote-left{
+          font-size:34px;
+          color:#green;
+          align:center;
+}
+.col-3 p{
+          font-size:30px;
+          margin:12px 0;
+          color:#777;
+}
+.testimonial.col-3 h3{
+          font-weight:700;
+          color:#555;
+          font-size:17px
+}
+/*..................................................*/
+.trial{
+           text-align:center;
+           padding:40px 20px;
+           box-shadow:0 0 20px 0px rgba(0,0,0,0.1);
+           cursor:pointer;
+           background:#333;
+           border-radius:50%;
+}
+/*....................................................*/
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+ .text {font-size: 11px}
+}
+.cool{
+display:inline-block;
+margin-top:-10px;
+padding-left:5%;
+}
+.cool img{
+padding-left:7cm;
+}
+.cool button{
+background:#236;
+border-radius:20%;
+}
+.cool button:hover{
+background:orange;
+}
+.cool li{
+list-style-type:none;
+padding:10px;
+}
+.cool a{
+color:white;
+text-decoration:none;
+font-size:28px;
+}
+.cool a:hover{
+color:blue;
+}
+
+    </style>
+</head>
+<body>
+ <nav>
+    <div class="button">
+        <div class="button-content">
+            <div class="content">
+                <ul>
+                    <image src="lib/phone.jpg" width="50" height="40">0798021383</image>
+                     <li><a href="index.html"><i class="fa fa-home" style="font-size:28px; color:black;"></i></a></li>
+                    <li><a href="pro1.html">Network problems </a>
+
+                      <li> <a href="pro2.html">Hardware problems </a></li>
+                     <li><a href="pro3.html">Printer and related  </a></li>
+                     <li><a href="pro5.html">VPN problems </a></li>
+                    <li><a href="pro10.html">Computer safety</a></li>
+                    <li><a href="pro4.html"><i class="fa fa-bars" aria-hidden="true"></i></a>
+                    <div class="sub-links">
+                            <ul>
+                           <li><a href="pro1.html">Network problems </a></li>
+                           <li> <a href="pro2.html">Hardware problems </a></li>
+                           <li><a href="pro3.html">Printer and related  </a></li>
+                           <li><a href="pro5.html">VPN problems </a></li>
+                           <li><a href="pro10.html">Computer safety</a></li>
+                             <li class="me"><a href="pro4.html">More<i class="fa fa-angle-left" style="float:left;"></i></a>
+                             <div class="sub-links2">
+                            <ul>
+                           <li><a href="pro4.html">Windows activation </a></li>
+                           <li> <a href="pro6.html">Windows Upgrade</a></li>
+                           <li><a a href="pro7.html">Windows installation   </a></li>
+                           <li><a href="pro8.html">Windows 8 Installation</a></li>
+                           <li><a href="pro11.html">Personal standards and  virtues</a></li>
+                                <li><a href="court links.html">Court Links</a></li>
+                            </ul>
+                             </div>
+                             </li>
+                      </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+ </nav>
+
+ <div class="trial" style="padding-top:100px; text-align:center; font-size:30px; color:#677;" >
+     <p style="font-size:36px; color:blue;">TECHNOLOGY IS THE WAY FORWARD</p> <p style="color:blue;"><BR> JOIN US TO MAKE THE DREAM COME<BR>TRUE...........</p>
+ </div>
+
+
+ <div class="cool">
+         <b><p  style="font-size:80px;">The way the world<br> agrees<br></p></b>
+         <p style="font-size:28px;">More than forty million people trust Makadara law court<br> for delivering justice for all<br>
+         </p>
+     <p style="font-size:35px; color:#326;">Welcome to the Kenya's judicial system
+         </p>
+         <button style="background:maroon;font-size:30px; color:white; padding:15px;">Get justice here &#8594;</button>
+ </div>
+ <div class="cool">
+     <image src="lib/network.jpg"></image>
+     </div>
+ <div class="cool">
+     <p style="font-size:50px;color:#499;"> The Person working through <br>this office as an attachee<br></p> <p style="font-size:35px; color:#396;">should adhere to the following <br>terms </p><br> <p style="font-size:25px; color:#366;"> and demands based on his or her standards;<br></p>
+ click here for more details
+     <button> <li><a href="pro11.html">Personal Standards &#8594;</a></li></button>
+     </div>
+  <p  style="font-size:34px; color:green; text-align:center; padding-top:20px; background:linen; border:6px solid blue;"><b>A WEBSITE GUIDE FOR NEWLY APPOINTED ATTACHEES<br> ON DAILY
+PROBLEMS AT MAKADARA LAW COURT.</b></p>
+
+ <image src="lib/kings.png" style="width:100%"></image>
+ <div class="testimonial">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>The only constant in the technology industry is change<br>The 4 Ps for Change and Release:<br>
+                    Planning Prevents Poor Performance.<br>Any sufficiently advanced bug is<br>
+                    indistinguishable from a feature. <BR>Let's embrace computing</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <img src="lib/thuku.jpg" class="d-img">
+                <h3>Thuku</h3>
+            </div>
+              <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>IT is ever-changing and there is the need to evolve in order to stay relevant.<br>
+                    A Release is like a boat. <br>80% of the holes plugged is not good enough.<br>
+                    Try harder next time…is not a problem management method mentioned in ITIL.
+
+</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <img src="lib/kings.jpg" class="d-img">
+                <h3>Dan and Gabriel</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>IT is not just another department in an organization. It’s pervasive, like electricity.
+                    The value of networking. It is very important (in IT). <br>There are so many resources out there that you can connect with for the latest updates,<BR> tips and tricks.
+                </p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <img src="lib/kingss.jpg" class="d-img">
+                <h3>Cynthiah and Brigette</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>IT Security is a form of Problem Management. It looks to proactively prevent Incidents.<br>When working for IT Security, you are only one Incident away from being the most important group in IT.</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <img src="lib/caro.jpg" class="d-img">
+                <h3>Caroline</h3>
+                </div>
+        </div>
+    </div>
+</div>
+
+ <div class="media">
+     <div class="super">
+         <a href="https://twitter.com/makadaraITsolut"><img src="lib/twitter.png" style="width:90px; height:80px;"></a>
+
+         <p>Get Us On<br> Our <br>Twitter </p>
+     </div>
+       <div class="super">
+           <a href="https://chat.whatsapp.com/HEeX4Af2UhmG2FrgAYR2M9"><img src="lib/whatsapp.png" style="width:90px; height:80px;"></a>
+         <p>Join The Group <br> Of <br> IT Experts</p>
+       </div>
+        <div class="super">
+            <a href="https://www.facebook.com/100093300283343/?modal=focused_switcher_dialog"><img src="lib/facebook.png" style="width:90px; height:80px;"></a>
+         <p>Visit Our<br>  Facebook<br>  Page</p>
+        </div>
+        <div class="super">
+            <a href="https://www.instagram.com/makadaraitsolution/#"><img src="lib/instagram.png" style="width:90px; height:80px;"></a>
+         <p>Don't Forget <br> Instagram Always<br>  With You</p>
+        </div>
+        <div class="super">
+         <img src="lib/download.png" style="width:90px; height:80px;">
+         <p>Makadara Home<br> Of <br>Justice</p>
+        </div>
+     </div>
+ </div>
+<footer>
+<div class="footer">
+    <div class="base">
+        <div class="row">
+            <div class="column">
+               <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p style="font-size:26px; color:#339;">Download App for Android and Ios mobile phone</p>
+            </div>
+            <div class="footer-col-2">
+                <img src="lib/app.png" style="width:200px; height:60px;">
+                <p style="font-size:26px; color:#339;">Our Purpose Is To Sustaina href="pro6.html">Windows Upgradeably Make The Pleasure and<br>
+                Benefits of Online Marketing Accessible for Many</p>
+                </div>
+            </div>
+            <div class="column">
+               <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li><a href="pro4.html">Windows activation</a></li><br>
+                    <li><a href="pro6.html">Windows Upgrade </a></li><br>
+                    <li><a href="pro7.html">Windows installation </a></li><br>
+                    <li><a href="pro8.html">Windows 8 Installation </a></li><br>
+                    <li><a href="pro9.html">Help?</a></li><br>
+                </ul>
+               </div>
+            </div>
+            <div class="column">
+              <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li><br>
+                    <li>Twitter</li><br>
+                    <li>Instagram</li><br>
+                    <li>Youtube</li><br>
+                    <li>Telegram</li><br>
+                </ul>
+              </div>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright"style="font-size:20px; color:#413;">Copyright 2022-Elizakings </p>
+    </div>
+</div>
+</footer>
+</body>
+</html>
